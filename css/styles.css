@@ -3,9 +3,8 @@ body {
     background-color: lightgray;
 }
 
-
-
 .container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: white;
     text-align: center;
     padding: 30px;
@@ -15,6 +14,7 @@ body {
     margin-top: 180px;
     width: 45%;
     height:30%
+    
 }
 
 .profile-picture {
