@@ -1,21 +1,19 @@
+
 body {
     background-color: lightgray;
 }
 
-@font-face {
-    font-family: 'Gasalt Regular';
-    src: url('../fonts/Gasalt-Regular.ttf);
-}
+
 
 .container{
     background-color: white;
     text-align: center;
     padding: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: auto;
-    margin-top: 250px;
-    width: 40%;
+    margin-top: 180px;
+    width: 45%;
     height:30%
 }
 
@@ -26,9 +24,43 @@ body {
 }
 
 .name {
-    font-family: 'Gasalt-Regular';
+    font-family: 'Gasalt Regular';
     text-transform: uppercase;
     font-size: 34px;
-    font-weight: 900;
+
+}
+
+.bio {
+    font-family: sans-serif;
+    padding-bottom: 70px;
+    font-size: 14px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.social-link {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: deepskyblue;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.social-link:hover {
+    color: white;
+    background-color: dodgerblue;
+}
+
+@font-face {
+    font-family: 'Gasalt Regular';
+    src: url('../fonts/Gasalt-Regular.ttf');
 }
 
