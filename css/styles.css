@@ -4,7 +4,7 @@ body {
 }
 
 .container{
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background-color: white;
     text-align: center;
     padding: 30px;
@@ -13,14 +13,18 @@ body {
     margin: auto;
     margin-top: 180px;
     width: 45%;
-    height:30%
-    
+    height:30% 
 }
 
 .profile-picture {
     border-radius: 50%;
     width: 150px;
     height: 150px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
 }
 
 .name {
@@ -32,13 +36,9 @@ body {
 
 .bio {
     font-family: sans-serif;
-    padding-bottom: 70px;
     font-size: 14px;
-}
-
-.social-icon {
-    width: 20px;
-    height: 20px;
+    padding-bottom: 70px;
+   
 }
 
 .social-link {
